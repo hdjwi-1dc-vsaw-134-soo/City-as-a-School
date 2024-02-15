@@ -1379,7 +1379,7 @@
                         {
                          "name":"url",
                          "type":"string",
-                         "value":"https:\/\/swh654-bs97vax1-6bsap-2.github.io\/BannerLOTU1\/"
+                         "value":"https:\/\/sdvc-qwexfn-afvb-banners.github.io\/BannerMiniMall\/"
                         }],
                  "rotation":0,
                  "type":"website",
@@ -1708,7 +1708,7 @@
         {
          "name":"mapCopyright",
          "type":"string",
-         "value":"Field Concept is the sole property of 100 Roads Inc. All rights are reserved by 100 Roads inc. All contents of the map may not be reproduced, distributed (for sale or otherwise), or create derivative works of the copyrighted work without the express written permission of 100 Roads Inc."
+         "value":"Field Concept is the sole property of 100 Roads Design LLC. All rights are reserved by 100 Roads Design LLC. All contents of the map may not be reproduced, distributed (for sale or otherwise), or create derivative works of the copyrighted work without the express written permission of 100 Roads Design LLC."
         }, 
         {
          "name":"mapImage",
@@ -1718,7 +1718,7 @@
         {
          "name":"mapName",
          "type":"string",
-         "value":"Field Concept"
+         "value":"City as a School Interior"
         }, 
         {
          "name":"script",
@@ -1728,10 +1728,10 @@
         {
          "name":"tilesetCopyright",
          "type":"string",
-         "value":"This map is the sole property of 100 Roads Inc. All rights are reserved by 100 Roads inc. All contents of the map may not be reproduced, distributed (for sale or otherwise), or create derivative works of the copyrighted work without the express written permission of 100 Roads Inc."
+         "value":"This map is the sole property of 100 Roads Design LLC. All rights are reserved by 100 Roads Design LLC. All contents of the map may not be reproduced, distributed (for sale or otherwise), or create derivative works of the copyrighted work without the express written permission of 100 Roads Design LLC."
         }],
  "renderorder":"right-down",
- "tiledversion":"1.10.1",
+ "tiledversion":"1.10.2",
  "tileheight":32,
  "tilesets":[
         {

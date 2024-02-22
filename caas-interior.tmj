@@ -1328,7 +1328,7 @@
                         {
                          "name":"url",
                          "type":"string",
-                         "value":"https:\/\/swh654-bs97vax1-6bsap-2.github.io\/BannerOffice-new\/"
+                         "value":"https:\/\/sdvc-qwexfn-afvb-banners.github.io\/BannerOffice\/"
                         }],
                  "rotation":0,
                  "type":"website",
@@ -1362,7 +1362,7 @@
                         {
                          "name":"url",
                          "type":"string",
-                         "value":"https:\/\/swh654-bs97vax1-6bsap-2.github.io\/BannerPlaygroundWeb1\/"
+                         "value":"https:\/\/sdvc-qwexfn-afvb-banners.github.io\/BannerPlayground\/"
                         }],
                  "rotation":0,
                  "type":"website",

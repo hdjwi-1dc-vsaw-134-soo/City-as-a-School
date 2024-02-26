@@ -1328,7 +1328,7 @@
                         {
                          "name":"url",
                          "type":"string",
-                         "value":"https:\/\/sdvc-qwexfn-afvb-banners.github.io\/BannerOffice\/"
+                         "value":"https:\/\/banneroffice-newrepo.pages.dev\/"
                         }],
                  "rotation":0,
                  "type":"website",
@@ -1362,7 +1362,7 @@
                         {
                          "name":"url",
                          "type":"string",
-                         "value":"https:\/\/sdvc-qwexfn-afvb-banners.github.io\/BannerPlayground\/"
+                         "value":"https:\/\/bannerplayground-new.pages.dev\/"
                         }],
                  "rotation":0,
                  "type":"website",
@@ -1379,7 +1379,7 @@
                         {
                          "name":"url",
                          "type":"string",
-                         "value":"https:\/\/sdvc-qwexfn-afvb-banners.github.io\/BannerMiniMall\/"
+                         "value":"https:\/\/bannerminimall-new.pages.dev\/"
                         }],
                  "rotation":0,
                  "type":"website",

@@ -1311,7 +1311,7 @@
                         {
                          "name":"exitUrl",
                          "type":"string",
-                         "value":"caas-exterior.tmj"
+                         "value":"https:\/\/play.workadventu.re\/@\/workspacesky\/100-roads-design\/city-as-a-school-exterior"
                         }],
                  "rotation":0,
                  "type":"area",

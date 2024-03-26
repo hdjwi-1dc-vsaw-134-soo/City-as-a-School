@@ -20,6 +20,34 @@ WA.onInit().then( async () => {
 
     WA.room.area.onLeave('clock').subscribe(closePopup)
     // Custom Julia
+
+
+    WA.room.onEnterLayer("floor").subscribe(() => {
+      WA.room.hideLayer("roof");
+      WA.room.hideLayer("roof-appear");
+      WA.room.hideLayer("walls-bg-front");
+      WA.room.hideLayer("sign");
+    });
+    
+  WA.room.onLeaveLayer("floor").subscribe(() => {
+      WA.room.showLayer("roof");
+      WA.room.showLayer("walls-bg-front");
+      WA.room.showLayer("facade-furniture-bg");
+      WA.room.showLayer("sign");
+    });
+
+
+
+
+    // snow zone
+    WA.room.onEnterLayer("snow_zone").subscribe(() => {
+      WA.room.showLayer("snow-on");
+    });
+    
+  WA.room.onLeaveLayer("snow_zone").subscribe(() => {
+      WA.room.hideLayer("snow-on");
+    });
+    
     let billboard1: EmbeddedWebsite = await WA.room.website.get("billboard1")
     WA.room.onEnterLayer("billboard1-zone").subscribe(() => {
       billboard1.visible = false;

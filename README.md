@@ -1,55 +1,31 @@
-# WorkAdventure Map Starter Kit
+# 100 Roads Design
 
-![map](./map.png)
+![100 Roads Design logo](100roadsdesign-logo.svg)
 
-This is a starter kit to help you build your own map for [WorkAdventure](https://workadventu.re).
+100 Roads has been designing and innovating in the education space since 2016. Our founder, Catherine Fraise, first designed a physical campus at Workspace Education in Bethel CT.
 
-To understand how to use this starter kit, follow the tutorial at [https://workadventu.re/map-building](https://workadventu.re/map-building).
+When lockdowns raised new problems, Catherine moved into developing online learning environments.
 
-## Structure
-* *public*: Static files like PDFs or audio files
-* *src*: Scripts files
-* *tilesets*: All tilesets
-* *map.tmj*: Map file
-* *map.png*: The map thumbnail displayed on the in-game map information
+100 Roads Design is located in McLeod, Montana and our virtual campuses are created by a global team of digital architects, creatives, community builders and educators.
 
-If you want to use more than one map file, just add the new map file on root or in a folder.
+Learn more about us at https://100roadsdesign.com. 
 
-we recommend using 500x500 images for the map thumbnails.
+## About the map
 
-If you are going to create custom websites to embed in the map, please reference the HTML files in the `input` option in *vite.config.js*.
+There are three virtual campuses in this repository.
 
-## Requirements
+![map](caas-exterior-readme.png)
 
-Node.js version >=17
+Map name: City as a School Exterior.
 
-## Installation
+![map](caas-interior-readme.png)
 
-With npm installed (comes with [node](https://nodejs.org/en/)), run the following commands into a terminal in the root directory of this project:
+Map name: City as a School Interior.
 
-```shell
-npm install
-npm run dev
-```
+![map](caas-top-floor-readme.png)
 
-## Test production map
+Map name: City as a School Top Floor.
 
-You can test the optimized map as it will be in production:
-```sh
-npm run build
-npm run prod
-```
+## Copyright
 
-## Licenses
-
-This project contains multiple licenses as follows:
-
-* [Code license](./LICENSE.code) *(all files except those for other licenses)*
-* [Map license](./LICENSE.map) *(`map.tmj` and the map visual as well)*
-* [Assets license](./LICENSE.assets) *(the files inside the `src/assets/` folder)*
-
-### About third party assets
-
-If you add third party assets in your map, do not forget to:
-1. Credit the author and license with the "tilesetCopyright" property present in the properties of each tilesets in the `map.tmj` file
-2. Add the license text in LICENSE.assets
+This map is the sole property of 100 Roads Design LLC. All rights are reserved by 100 Roads Design LLC. All contents of the map may not be reproduced, distributed (for sale or otherwise), or create derivative works of the copyrighted work without the express written permission of 100 Roads Design LLC.

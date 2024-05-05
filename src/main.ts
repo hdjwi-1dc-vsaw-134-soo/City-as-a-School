@@ -19,6 +19,54 @@ WA.onInit().then( async () => {
     })
 
     WA.room.area.onLeave('clock').subscribe(closePopup)
+    // Cave custom 
+    let fire: EmbeddedWebsite = await WA.room.website.get("fire")
+    let coverup: EmbeddedWebsite = await WA.room.website.get("coverup")
+    WA.room.onEnterLayer("zone_outside").subscribe(() => {
+      WA.room.hideLayer("coverup")
+    });
+    WA.room.onEnterLayer("teepee-floor").subscribe(() => {
+      coverup.visible = false
+      WA.room.hideLayer("coverup")
+      WA.room.hideLayer("teepee-roof")
+    });
+    WA.room.onLeaveLayer("teepee-floor").subscribe(() => {
+      coverup.visible = true
+      WA.room.showLayer("teepee-roof")
+    });
+
+
+    WA.room.onEnterLayer("zone_inside").subscribe(() => {
+      WA.room.showLayer("coverup")
+      WA.room.hideLayer("teepee-roof")
+      WA.room.hideLayer("teepee-walls-fg")
+      WA.room.hideLayer("rock-facade")
+      WA.room.hideLayer("teepee-furniture")
+      WA.room.hideLayer("teepee-roof")
+      WA.room.hideLayer("teepee-grounds")
+      WA.room.hideLayer("outside-sand")
+      coverup.visible = false
+      fire.visible = false
+    });
+    WA.room.onLeaveLayer("zone_inside").subscribe(() => {
+      WA.room.hideLayer("coverup")
+      WA.room.showLayer("teepee-roof")
+      WA.room.showLayer("teepee-walls-fg")
+      WA.room.showLayer("rock-facade")
+      WA.room.showLayer("teepee-furniture")
+      WA.room.showLayer("teepee-roof")
+      WA.room.showLayer("teepee-grounds")
+      WA.room.showLayer("outside-sand")
+      coverup.visible = true
+      fire.visible = true
+    });
+    WA.room.onEnterLayer("floor").subscribe(() => {
+      coverup.visible = false
+    });
+    WA.room.onLeaveLayer("floor").subscribe(() => {
+      coverup.visible = true
+    });
+    
     // Custom Julia
 
 

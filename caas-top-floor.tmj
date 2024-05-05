@@ -881,7 +881,7 @@
                         {
                          "name":"playAudio",
                          "type":"string",
-                         "value":"\/fire.mp3"
+                         "value":"fire.mp3"
                         }],
                  "rotation":0,
                  "type":"area",
@@ -1584,7 +1584,7 @@
         {
          "name":"script",
          "type":"string",
-         "value":"src\/main.ts"
+         "value":"src\/caas_top_floor_and_cave.ts"
         }, 
         {
          "name":"tilesetCopyright",

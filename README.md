@@ -26,10 +26,6 @@ Map name: City as a School Interior.
 
 Map name: City as a School Top Floor.
 
-![map](readme/caas-spiritual-cave-readme.png)
-
-Map name: City as a School Spiritual Cave.
-
 ## Copyright
 
 This map is the sole property of 100 Roads Design LLC. All rights are reserved by 100 Roads Design LLC. All contents of the map may not be reproduced, distributed (for sale or otherwise), or create derivative works of the copyrighted work without the express written permission of 100 Roads Design LLC.
